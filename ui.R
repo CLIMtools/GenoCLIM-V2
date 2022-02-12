@@ -32,7 +32,8 @@ shinyUI(fluidPage(
   
   tabsetPanel(              
     tabPanel(type = "pills", title = "Find your gene",(jqui_draggable(sidebarPanel(
-      wellPanel(a(h4('Please cite us in any publication that utilizes information from Arabidopsis CLIMtools:'),  href = "https://www.nature.com/articles/s41559-018-0754-5", h6('Ferrero-Serrano, Á & Assmann SM. Phenotypic and genome-wide association with the local environment of Arabidopsis. Nature Ecology & Evolution. doi: 10.1038/s41559-018-0754-5 (2019)' ))),
+      wellPanel(a(h4('SNPfold CC:'),  h6('The SNPfold algorithm (Halvorsen et al., 2010) considers the ensemble of structures predicted by the RNA partition functions of RNAfold (Bindewald & Shapiro, 2006) for each reference and alternative sequence and quantifies structural differences between these ensembles by calculating a Pearson correlation coefficient on the base-pairing probabilities between the two sequences. The closer this correlation coefficient is to 1, the less likely it is that the RNA structure is changed by the SNP. The creators of SNPfold note (Corley et al., 2015) that for genome-wide prediction, the bottom 5% of the correlation coefficient values (corresponding in this CLIMtools dataset to a correlation coefficient of 0.445) are most likely to be riboSNitches and the top 5% of correlation coefficient values (corresponding in this CLIMtools dataset to a correlation coefficient of 0.99) are most likely to be non-riboSNitches.'))),
+                  wellPanel(a(h4('Please cite us in any publication that utilizes information from Arabidopsis CLIMtools:'),  h6('-Ferrero‑Serrano,Á, Sylvia, MM, Forstmeier, PC, Olson, AJ, Ware, D,Bevilacqua, PC & Assmann, SM (2021). Experimental demonstration and pan‑structurome prediction of climate‑associated riboSNitches in Arabidopsis. Under review in Genome Biology.' ), h6('-Ferrero-Serrano, Á & Assmann SM. Phenotypic and genome-wide association with the local environment of Arabidopsis. Nature Ecology & Evolution. doi: 10.1038/s41559-018-0754-5 (2019)' ))),
       
       #    wellPanel(
       #      uiOutput("datasets")
@@ -66,7 +67,7 @@ shinyUI(fluidPage(
         ),
              
   # Create a new row for the table.
-  fixedRow(column(6,h4("Type your locus of interest in the search box to explore the association between its genetic variation with any geoclimatic variable"),
+  fixedRow(column(6,h4("Type your locus of interest in the search box to explore the association between its genetic variation with any geoclimatic variable (i.e. AT4G00650 or FRI)"),
     withSpinner(DT::dataTableOutput("table"))
     
   )))), 

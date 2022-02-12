@@ -26,9 +26,7 @@ descriptiondataset <-read.csv("data/datadescription.csv")
                                                     background = styleColorBar(data$score_AMM, 'lightblue'),
                                                     backgroundSize = '98% 88%',
                                                     backgroundRepeat = 'no-repeat',
-                                                    backgroundPosition = 'center') %>%
-                                       formatStyle('RBSN', backgroundColor = styleEqual(c(TRUE, FALSE), c('red', ''))
-  )
+                                                    backgroundPosition = 'center')
                                        
   )
       })
