@@ -5,7 +5,7 @@ library(shinycssloaders)
 library(readr)
 shinyServer(function(input, output) {
  
-descriptiondataset <-read.csv("data/datadescription.csv")
+descriptiondataset <-read_csv("data/datadescription.csv")
       
  output$a <- DT::renderDataTable(descriptiondataset, filter = 'top', options = list(
         pageLength = 100, autoWidth = TRUE))
