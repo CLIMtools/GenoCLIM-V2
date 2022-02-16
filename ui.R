@@ -67,7 +67,7 @@ shinyUI(fluidPage(
         ),
              
   # Create a new row for the table.
-  fixedRow(column(6,h4("Type your locus of interest in the search box to explore the association between its genetic variation with any geoclimatic variable (i.e. AT4G00650 or FRI)"),
+  fixedRow(column(6,h4("Type your locus of interest in the search box to explore the association between its genetic variation with any geoclimatic variable (i.e. AT5G35840 or PHYC)"),
     withSpinner(DT::dataTableOutput("table"))
     
   )))), 
