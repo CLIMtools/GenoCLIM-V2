@@ -13,7 +13,7 @@ descriptiondataset <-read_csv("data/datadescription.csv")
   data <- read_csv("data/merged1.csv")
   
   # Filter data based on selections
-  output$table <-DT::renderDataTable(datatable(data, options = list(
+  output$table <-DT::renderDataTable(datatable(data, options = list( searchDelay = 500,
     initComplete = JS(
       "function(settings, json) {",
       "$(this.api().table().header()).css({'background-color': '#0E7DE3', 'color': '#fff'});",
