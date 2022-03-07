@@ -11,7 +11,7 @@ We recommend the user of GenoCLIM V.2.0 to become familiar with the limitations 
 
 Please visit the [Assmann lab](http://www.personal.psu.edu/sma3/) to learn about other interesting research topics.
 
-## [Data availability](https://github.com/CLIMtools/AraCLIM/tree/master/data)
+## [Data availability](https://github.com/CLIMtools/GenoCLIM/tree/master/data)
 The data for the GxE associations provided by this tool as is available in the [data/ folder](https://github.com/CLIMtools/GenoCLIM/tree/master/data). 
 
 
@@ -21,4 +21,4 @@ The data for the GxE associations provided by this tool as is available in the [
 **-Ferrero-Serrano, Á & Assmann SM.** (2019) Phenotypic and genome-wide association with the local environment of Arabidopsis. Nature Ecology & Evolution. doi: 10.1038/s41559-018-0754-5.
 
 
-[<img align="left" src="https://github.com/CLIMtools/GenoCLIM/blob/master/Screen Shot2.png">](https://rstudio.aws.science.psu.edu:3838/aaf11/GenoCLIM/ "GenoCLIM")
+[<img align="left" src="https://github.com/CLIMtools/GenoCLIM-V2/blob/main/Screen%20Shot2.png">](https://gramene.org/CLIMtools/arabidopsis_v2.0 "GenoCLIM")
