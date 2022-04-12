@@ -15,8 +15,6 @@ In this version of GenoCLIM, we provide information on the predicted effect of S
 
 We recommend the user of GenoCLIM V.2.0 to become familiar with the limitations inherent to genome-wide association studies, for which a description is available in the left panel.
 
-Please visit the [Assmann lab](http://www.personal.psu.edu/sma3/) to learn about other interesting research topics.
-
 ## [Data availability](https://doi.org/10.5061/dryad.mw6m905z)
 well as code and data for CLIMtools V2.0 have been uploaded to Dryad and Zenodo https://doi.org/10.5061/dryad.mw6m905z 
 
