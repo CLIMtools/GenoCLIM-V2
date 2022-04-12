@@ -3,7 +3,7 @@
 # [GenoCLIM V.2.0](https://gramene.org/CLIMtools/arabidopsis_v2.0/GenoCLIM-V2/ "GenoCLIM")
 [**GenoCLIM V.2.0**](https://gramene.org/CLIMtools/arabidopsis_v2.0/GenoCLIM-V2/) (https://gramene.org/CLIMtools/arabidopsis_v2.0/GenoCLIM-V2/) is an SHINY](https://shiny.rstudio.com/) component of [**Arabidopsis CLIMtools**](https://gramene.org/CLIMtools/arabidopsis_v2.0/GenoCLIM-V2/) (http://www.personal.psu.edu/sma3/CLIMtools.html) that allows the user to explore the environmental variation associated to any gene or variant of interest in *Arabidopis thaliana*.
 
-Enter any gene Id on the search box and retrieve any significant association with any of the more that 400 environmental parameters that we provide in our database. The user may use their desired significance threshold when considering any of these association.
+Enter any gene ID on the search box and retrieve any significant association with any of the more that 400 environmental parameters that we provide in our database. The user may use their desired significance threshold when considering any of these association.
 
 This tool provides information on the q-values for all associated variants for the user to impose a particular FDR if desired. We recommend the exploration of the FDR parameters for these ExG association using our [FDRCLIM](https://rstudio.aws.science.psu.edu:3838/aaf11/FDRCLIM/ "FDRCLIM") tool.
 
