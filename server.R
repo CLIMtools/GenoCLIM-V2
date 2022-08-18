@@ -25,7 +25,8 @@ descriptiondataset <-read_csv("data/datadescription.csv")
       filter(LOCUS_ID == input$LOCUS_ID)
     filtered
   }, filter ='top',
-  options = list( autoWidth = TRUE,dom = 't', columnDefs = 
+  options = list( autoWidth = TRUE,dom = 'Bftsp',
+                  pageLength = 50, columnDefs = 
                    list(list(className = 'dt-center', 
                              targets = "_all"))), callback = JS("
 var tips = ['Chromosome', 'Position', 'Reference allele (col-0)',
